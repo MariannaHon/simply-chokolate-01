@@ -15,29 +15,39 @@
 </head>
 <body>
     <header>
-        <div>
-            <nav>
-                <a href="./index.html" class="italic">Simply<span class="logo">chocolate</span></a>
+        <div class="container">
+            <nav class="navigation">
+                <a href="./index.html" class="logo">Simply<span class="normal">chocolate</span>
                 <svg class="icon-logo" width="24" height="24">
                     <use href="./images/icons.svg#icon-chocolate"></use>
                 </svg>
-                <ul>
-                    <li>
-                        <a href="./index.html">Home</a>
+                </a>
+
+                <ul class="list-nav">
+                    <li class="item-nav">
+                        <a href="./index.html" class="link-nav">Home</a>
                     </li>
-                    <li>
-                        <a href="./index.html">How it`s made?</a>
+                    <li class="item-nav">
+                        <a href="./index.html" class="link-nav">How it`s made?</a>
                     </li>
-                    <li>
-                        <a href="./index.html">Chocolate is loved</a>
+                    <li class="item-nav">
+                        <a href="./index.html" class="link-nav">Chocolate is loved</a>
                     </li>
                 </ul>
-                <svg class="icon-contacts" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-                <svg class="icon-contacts" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
+                <div class="icons-nav-container">
+                    <ul class="list-icons-nav">
+                        <li class="item-icons-nav">
+                            <svg class="icon-contacts" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </li>
+                        <li class="item-icons-nav">
+                            <svg class="icon-contacts" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -45,8 +55,8 @@
 
         <!-- ============== Title ============== -->
 
-        <section>
-            <div>
+        <section class="">
+            <div class="container">
                 <h1>Treat yourself or a loved one to
                 our finest ingredients for a moment
                 of pure delight!</h1>
@@ -63,8 +73,8 @@
 
         <!-- ============ Benefits ============ -->
 
-        <section>
-            <div>
+        <section class="section">
+            <div class="container">
                 <h2>Benefits</h2>
                 <ul>
                     <li>
@@ -105,8 +115,8 @@
 
         <!-- ============ Tastes ============ -->
 
-        <section>
-            <div>
+        <section class="section">
+            <div class="container">
                 <h2>It all adds up to one exceptional taste sensation</h2>
                 <p>At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the
                 finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one
@@ -134,8 +144,8 @@
 
         <!-- =========== How it`s made ========== -->
 
-        <section>
-            <div>
+        <section class="section">
+            <div class="container">
                 <h2>How it`s made</h2>
                 <img src="./images/img.jpg" alt="Preparation of chocolate">
                 <p>Try our chocolates today and discover the perfect balance of flavor</p>
@@ -162,8 +172,8 @@
 
         <!-- ========== Reviews ========== -->
 
-        <section>
-            <div>
+        <section class="section">
+            <div class="container">
                 <h2>Chocolate is loved</h2>
                 <img src="./images/img2.png" alt="photo of woman">
                 <h3>Victoria Dobrzhanska</h3>
@@ -181,41 +191,42 @@
         </section>
     </main>
     <footer>
-        <div>
-            <h2>Chocolate a delicious cure for a bad day</h2>
-            <p>Contact us</p>
-            <address>
+        <div class="container">
+            <div>
+                <h2>Chocolate a delicious cure for a bad day</h2>
+                <p>Contact us</p>
+                <address>
+                    <ul>
+                        <li>
+                            <a href="tel:+380684439426">+380 (68) 443-94-26</a>
+                        </li>
+                        <li>
+                            <a href="mailto:simplycthoc@gmail.com">simplycthoc@gmail.com</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <span></span>
+            <div>
                 <ul>
                     <li>
-                        <a href="tel:+380684439426">+380 (68) 443-94-26</a>
+                        <a href="./index.html">Home</a>
                     </li>
                     <li>
-                        <a href="mailto:simplycthoc@gmail.com">simplycthoc@gmail.com</a>
+                        <a href="./index.html">How it`s made?</a>
+                    </li>
+                    <li>
+                        <a href="./index.html">Chocolate is loved</a>
                     </li>
                 </ul>
-            </address>
-        </div>
-        <span></span>
-        <div>
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./index.html">How it`s made?</a>
-                </li>
-                <li>
-                    <a href="./index.html">Chocolate is loved</a>
-                </li>
-            </ul>
-            <form class="form-bottom">
-                <label class="subscribe">
-                    <input type="email" name="email" placeholder="E-mail" class="email-bottom">
-                </label>
-                <button type="submit" class="button-bottom">Subscribe</button>
-            </form>
+                <form class="form-bottom">
+                    <label class="subscribe">
+                        <input type="email" name="email" placeholder="E-mail" class="email-bottom">
+                    </label>
+                    <button type="submit" class="button-bottom">Subscribe</button>
+                </form>
+            </div>
         </div>
     </footer>
-    
 </body>
 </html>
